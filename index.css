@@ -7,6 +7,7 @@ body {
     width: 1149px;
 
 
+
 }
 
 .dashboard h1 {
@@ -96,8 +97,7 @@ body {
 
 
 .job-card {
-    height: 280px;
-    width: 1110px;
+
     margin-top: 16px;
     background: #ffffff;
     padding: 24px 24px 24px 24px;
@@ -182,4 +182,34 @@ body {
 
 .delete-btn:hover {
     color: red;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .dashboard h1 {
+        font-size: 22px;
+    }
+
+    .card {
+        flex: 100%;
+    }
+
+    .jobs-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+
+    }
+
+    .buttons button {
+        width: 100%;
+    }
 }
