@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0px;
+    padding: 20px 245px 20px 245px;
+    height: 149px;
+    width: 1149px;
+
+
+}
+
+.dashboard h1 {
+    margin-bottom: 20px;
+    color: #002C5C;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 20px, 20px, 20px, 20px;
+}
+
+.card {
+    flex: 1;
+    width: 359px;
+    height: 97px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.card p {
+    margin: 0;
+    color: #323B49;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.total h2 {
+    color: black;
+}
+
+.interview h2 {
+    color: green;
+}
+
+.rejected h2 {
+    color: red;
+}
+
+.jobs-section {
+    margin-top: 30px;
+}
+
+.jobs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobs-header h2 {
+    margin: 0;
+}
+
+.jobs-header p {
+    color: grey;
+    font-weight: 500;
+}
+
+.tabs {
+    margin-top: 24px;
+    display: flex;
+    gap: 6px;
+    color: grey;
+}
+
+.tab {
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    font-weight: 500;
+}
+
+.tab.active {
+    height: 32px;
+    width: 80px;
+    background: #3B82F6;
+    color: white;
+}
+
+
+.job-card {
+    height: 280px;
+    width: 1110px;
+    margin-top: 16px;
+    background: #ffffff;
+    padding: 24px 24px 24px 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.job-card h3 {
+    margin: 0;
+    color: #002C5C;
+}
+
+
+.job-card .position {
+    margin-top: 4px;
+    color: #64748B;
+}
+
+.job-card .info {
+    font-size: 14px;
+    color: #64748B;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.status {
+    display: inline-block;
+    background: #EEF4FF;
+    color: #002C5C;
+    padding: 8px 12px 8px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.job-card .description {
+    font-size: 14px;
+    color: #323B49;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
+.interview-btn {
+    border: 1px solid #10B981;
+    background: white;
+    color: #10B981;
+}
+
+.interview-btn:hover {
+    background: #10B981;
+    color: white;
+}
+
+.rejected-btn {
+    border: 1px solid #EF4444;
+    background: white;
+    color: #EF4444;
+}
+
+.rejected-btn:hover {
+    background: #EF4444;
+    color: white;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999;
+}
+
+.delete-btn:hover {
+    color: red;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assaignment 4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class="dashboard">
+        <h1>Job Application Tracker</h1>
+
+        <div class="dashboard-cards">
+
+            <div class="card total">
+                <p>Total</p>
+                <h2 id="total-count">8</h2>
+            </div>
+
+            <div class="card interview">
+                <p>Interview</p>
+                <h2 id="interview-count">0</h2>
+            </div>
+
+            <div class="card rejected">
+                <p>Rejected</p>
+                <h2 id="rejected-count">0</h2>
+            </div>
+
+        </div>
+    </section>
+    <section class="jobs-section">
+
+        <div class="jobs-header">
+            <h2>Available Jobs</h2>
+            <p id="job-count">8 jobs</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active">All</button>
+            <button class="tab">Interview</button>
+            <button class="tab">Rejected</button>
+        </div>
+
+        <div id="jobs-container">
+        </div>
+
+    </section>
+    <div class="job-card">
+        <span class="delete-btn">🗑</span>
+
+        <h3>Mobile First Corp</h3>
+        <p class="position">React Native Developer</p>
+
+        <p class="info">Remote • Full-time • $130,000 - $175,000</p>
+
+        <span class="status">NOT APPLIED</span>
+
+        <p class="description">
+            Build cross-platform mobile applications using React Native.
+        </p>
+
+        <div class="buttons">
+            <button class="interview-btn">INTERVIEW</button>
+            <button class="rejected-btn">REJECTED</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
